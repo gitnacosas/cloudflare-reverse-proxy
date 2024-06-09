@@ -1,0 +1,8 @@
+name = "cloudflare-reverse-proxy"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
+
+[env.production]
+route = "your-route-here"
+zone_id = "your-zone-id"
